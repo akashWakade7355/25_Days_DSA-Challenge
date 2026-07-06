@@ -3,8 +3,6 @@
 > **Consistency beats intensity.**  
 > Solving Data Structures & Algorithms problems every day for **25 consecutive days** to strengthen problem-solving skills and improve coding interview preparation.
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/your-username/25-Days-DSA-Challenge)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/your-username/25-Days-DSA-Challenge)
 ![Challenge](https://img.shields.io/badge/Challenge-25%20Days-success)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
 
@@ -28,7 +26,6 @@ The main objectives of this challenge are:
 - 💡 Improve problem-solving skills
 - ⚡ Practice coding consistently
 - 🎯 Prepare for coding interviews
-- 🏆 Strengthen competitive programming skills
 - 🌱 Track daily learning progress
 - 🤝 Help other learners by sharing clean and understandable solutions
 
@@ -88,7 +85,7 @@ Each day's folder will contain one or more DSA problems along with their optimiz
 
 | Day | Date | Status |
 |-----|------|--------|
-| Day 01 | 06 Jul 2026 | ✅ |
+| Day 01 | 06 Jul 2026 | ⏳ |
 | Day 02 | 07 Jul 2026 | ⏳ |
 | Day 03 | 08 Jul 2026 | ⏳ |
 | Day 04 | 09 Jul 2026 | ⏳ |
@@ -152,13 +149,6 @@ By committing to solving problems daily, I aim to:
 If these solutions help you in your DSA journey, consider giving this repository a ⭐.
 
 It motivates me to continue sharing quality solutions and learning resources.
-
----
-
-# 📬 Connect with Me
-
-- **GitHub:** https://github.com/your-username
-- **LinkedIn:** https://linkedin.com/in/your-linkedin
 
 ---
 
