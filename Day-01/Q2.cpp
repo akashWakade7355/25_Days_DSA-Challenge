@@ -2,7 +2,9 @@
 
 /*
 Question:
-You are given two square matrices, a[][] and b[][], each of size n x n. Your task is to compute the sum of these two matrices and store the result in the matrix a[][] itself.
+You are given two square matrices, a[][] and b[][], each of size n x n. 
+Your task is to compute the sum of these two matrices and store the result 
+in the matrix a[][] itself.
 
 Examples:
 
