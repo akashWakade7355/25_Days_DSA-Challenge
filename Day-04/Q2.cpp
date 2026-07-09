@@ -64,3 +64,19 @@ class Solution {
         return A;
     }
 };
+
+
+// TC:0(N^2)
+
+// SC:0(1)
+
+    /*
+    Approach:
+    1. Traverse only the upper triangular part of the matrix
+       (excluding the primary diagonal).
+    2. For every element A[i][j] where j > i, swap it with
+       the corresponding element A[j][i] in the lower triangle.
+    3. The primary diagonal remains unchanged.
+    4. Return the modified matrix.
+
+    */
