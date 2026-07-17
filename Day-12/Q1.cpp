@@ -1,0 +1,90 @@
+// Topic : Hashmap
+
+/*
+Question :
+
+Given an array of integers arr, return true if the number of occurrences of each value in the array is unique or false otherwise.
+
+ 
+
+Example 1:
+
+Input: arr = [1,2,2,1,1,3]
+Output: true
+Explanation: The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same number of occurrences.
+Example 2:
+
+Input: arr = [1,2]
+Output: false
+Example 3:
+
+Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
+Output: true
+ 
+
+Constraints:
+
+1 <= arr.length <= 1000
+-1000 <= arr[i] <= 1000
+*/
+
+// solution :
+
+class Solution {
+public:
+    bool uniqueOccurrences(vector<int>& arr) {
+          unordered_map<int, int> freq;
+
+        // Count the frequency of each element
+        for (int num : arr) {
+            freq[num]++;
+        }
+
+        unordered_set<int> seen;
+
+        // Check if any frequency is repeated
+        for (auto it : freq) {
+            if (seen.count(it.second)) {
+                return false;
+            }
+            seen.insert(it.second);
+        }
+
+        return true;
+    }
+};
+
+// TC:0(n)
+
+// SC:0(n)
+
+/*
+Apprach :
+
+### Step 1:
+Create an `unordered_map<int, int>` to store the frequency of each element.
+
+### Step 2:
+Traverse the array and count the frequency of every element.
+
+**Example:**
+
+```text
+arr = [1,2,2,1,1,3]
+
+1 -> 3
+2 -> 2
+3 -> 1
+```
+
+### Step 3:
+Create an `unordered_set<int>` to store the frequencies that have already been seen.
+
+### Step 4:
+Traverse the frequency map:
+- If a frequency is already present in the set, return `false`.
+- Otherwise, insert it into the set.
+
+If all frequencies are unique, return `true`.
+
+*/
